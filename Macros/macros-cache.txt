@@ -1,0 +1,75 @@
+VER 3 000000000000006D "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Garrison Hearthstone
+END
+VER 3 0000000000000089 "adsd" "INV_MISC_QUESTIONMARK"
+/tar Lightning fox
+END
+VER 3 0000000000000086 "crab" "INV_MISC_QUESTIONMARK"
+/way 16.69, 54.44
+/way 23, 29
+/way 16, 60
+/way 24.31, 39.69
+/way 23.58, 76.66
+/way 30.23, 41.71
+END
+VER 3 0000000000000074 "frames fix" "132112"
+/run EnableAddOn("Blizzard_CompactRaidFrames");EnableAddOn("Blizzard_CUFProfiles")
+END
+VER 3 0000000000000088 "Ghostcrawlermnmm" "136212"
+/way 20, 58
+/way 22, 65
+/way 20, 68
+/way 24, 72
+/way 31, 78
+/way 31, 80
+/way 28, 82
+/way 26, 81
+/way 24, 80
+/way 15, 87
+/way 13, 83
+/way 15, 77
+/way 19, 77
+END
+VER 3 0000000000000087 "Gondira" "236189"
+/way Zul'Drak 77, 69 Gondria
+/way Zul'Drak 67, 77 Gondria
+/way Zul'Drak 61, 62 Gondria
+/way Zul'Drak 69, 48 Gondria
+/way Zul'Drak 63, 43 Gondria
+END
+VER 3 000000000000007F "kick" "1305153"
+#showtooltip Disrupt
+/cast [modifier: shift, nodead, harm, @focus] Disrupt; [nodead, harm, @mouseover] Disrupt
+END
+VER 3 0000000000000081 "Markers 2" "841383"
+/run CM=CM or 8;CM=CM-1;if CM<6 then CM=8 end;SetRaidTargetIcon("mouseover",CM)
+END
+VER 3 0000000000000077 "PULL" "132264"
+/pull 5
+END
+VER 3 000000000000003D "Set Focus" "656176"
+/focus [@mouseover]
+END
+VER 3 0000000000000080 "SHADOWMELD STEAL" "461113"
+/cast Shadowmeld
+/stopattack
+/cast Stealth
+END
+VER 3 000000000000006A "Talent Template" "878230"
+#showtooltip
+/cast [talent:7/2] Apotheosis
+/cast [talent:7/3] Holy Word: Salvation
+END
+VER 3 0000000000000059 "Trinket 1" "INV_MISC_QUESTIONMARK"
+/use  13
+END
+VER 3 000000000000006F "Trinket 1 MO" "INV_MISC_QUESTIONMARK"
+/use [@mouseover] 13
+END
+VER 3 000000000000005E "Trinket 2" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 0000000000000085 "trinket 2 mo" "INV_MISC_QUESTIONMARK"
+/use [@mouseover] 14
+END

@@ -1,0 +1,69 @@
+VER 3 0100000000000016 "as" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stealth] Ambush; [nostealth] Sinister Strike
+END
+VER 3 0100000000000005 "BLIND M" "INV_MISC_QUESTIONMARK"
+#showtooltip Blind
+/cast [modifier: shift, nodead, harm, @focus] Blind;[nodead, harm, @target] Blind
+END
+VER 3 0100000000000008 "googe" "INV_MISC_QUESTIONMARK"
+#showtooltip Gouge
+/cast [modifier: shift, nodead, harm, @focus] Gouge; [nodead, harm, @target] Gouge
+END
+VER 3 0100000000000003 "grapple mo" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Grappling Hook
+END
+VER 3 0100000000000007 "kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Kick
+/cast [modifier: shift, nodead, harm, @focus] Kick; [nodead, harm, @target] Kick
+END
+VER 3 0100000000000004 "kick focus" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Kick
+END
+VER 3 0100000000000011 "kidney mod" "INV_MISC_QUESTIONMARK"
+#showtooltip Kidney Shot
+/cast [modifier: shift, nodead, harm, @focus] Kidney Shot; [@target, nodead, harm] Kidney Shot
+END
+VER 3 010000000000000F "PvP Sap" "132310"
+#showtooltip sap 
+/cleartarget 
+/console targetNearestDistance 10.000000 
+/targetenemy [noharm][dead] 
+/console targetNearestDistance 41.000000 
+/cast [harm,nodead] sap
+END
+VER 3 0100000000000009 "sd" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/cast [stance:0] Shadow Dance
+/cast Shadowstrike
+END
+VER 3 0100000000000017 "sfs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Adrenaline Rush
+/use 14
+END
+VER 3 010000000000000E "shadowstep focus" "132303"
+/cast [@focus][] Shadowstep
+/cast [@focus][] Kick
+END
+VER 3 0100000000000001 "shadowstep mo" "132303"
+#showtooltip
+/cast [modifier: shift, nodead, @focus] Shadowstep;[@mouseover, nodead] Shadowstep
+/target mouseover
+END
+VER 3 0100000000000013 "symbols trinket" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Blades
+/cast Worldvein Resonance
+/cast Shadow Blades
+/cast Symbols of Death
+/use 14
+/use Potion of Unbridled Fury
+END
+VER 3 0100000000000002 "tricks mo" "236283"
+/cast [@party1] Tricks of the Trade
+END
+VER 3 0100000000000012 "vendetta pvp" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [bonusbar:1] Shadowstrike;Backstab;Gloomblade
+END

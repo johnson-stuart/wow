@@ -1,0 +1,47 @@
+VER 3 0100000000000002 "15row" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent: 1/2] Warrior of Elune; [talent:1/3] Force of Nature
+END
+VER 3 0100000000000003 "25row" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent: 2/2] Renewal
+/cancelform [help] [@mouseover,help]
+/cast [help][@target, @mouseover] Wild Charge;
+/cast [@mouseover, @target, harm, nodead] Wild Charge;
+END
+VER 3 0100000000000004 "35row" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent: 4/1] Mighty Bash; [talent: 4/2] Mass Entanglement; [talent: 4/3] Heart of the Wild
+END
+VER 3 0100000000000005 "50row" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent: 7/2, stance:4][talent: 7/2, stance:0] Fury of Elune; [talent:7/3, stance:4][talent:7/3, stance:0] New Moon; [talent: 3/2, stance: 1] Frenzied Regeneration; [talent: 3/1, stance: 2] Rip
+END
+VER 3 010000000000000A "Form1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0][stance:4] Wrath; [stance:1] Mangle; [stance:2] Shred
+END
+VER 3 010000000000000B "Form2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0][stance:4] Starfire; [stance:2] Ferocious Bite; [stance:1] Ironfur
+END
+VER 3 010000000000000E "Form3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent: 3/1, stance:2] Swipe; [talent: 3/2, stance:1] Thrash; [] Starfall
+END
+VER 3 010000000000000F "Form4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/1, stance: 2] Rake; [] Sunfire
+END
+VER 3 0100000000000007 "mo moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead, harm] Moonfire, [] Moonfire
+END
+VER 3 0100000000000008 "mo sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead, harm] Sunfire, [] Sunfire
+END
+VER 3 010000000000000D "typhoon/incap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier: shift, talent: 3/2] Incapacitating Roar; [modifier: shift, talent: 3/1] Maim; [] Typhoon
+END

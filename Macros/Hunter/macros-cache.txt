@@ -1,0 +1,46 @@
+VER 3 0100000000000003 "BM BS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Barbed Shot
+/cast Claw(Basic Attack)
+/cast Bite(Basic Attack)
+/cast Smack(Basic Attack)
+END
+VER 3 0100000000000004 "BM CS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Cobra Shot
+/cast Claw(Basic Attack)
+/cast Bite(Basic Attack)
+/cast Smack(Basic Attack)
+END
+VER 3 0100000000000002 "BM KC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Kill Command
+/cast Claw(Basic Attack)
+/cast Bite(Basic Attack)
+/cast Smack(Basic Attack)
+END
+VER 3 0100000000000005 "BM MS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Multi-Shot
+/cast Claw(Basic Attack)
+/cast Bite(Basic Attack)
+/cast Smack(Basic Attack)
+END
+VER 3 0100000000000008 "Feign Death" "INV_MISC_QUESTIONMARK"
+#showtooltip Feign Death
+/cast Feign Death
+/cast Play Dead
+END
+VER 3 0100000000000006 "Focus Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Counter Shot
+/cast [@focus,exists,harm,nodead][] Counter Shot
+END
+VER 3 0100000000000001 "Harpoon MO" "1376040"
+#showtooltip
+/cast [@mouseover, nodead, harm] Harpoon
+/cast [] Harpoon
+END
+VER 3 0100000000000007 "Pet Abilities" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [pet: Spirit Beast] Spirit Mend; [pet: Bat] Primal Rage
+END
